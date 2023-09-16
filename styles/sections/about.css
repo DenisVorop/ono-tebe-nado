@@ -1,0 +1,33 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 25px;
+}
+
+.about__logo {
+  display: flex;
+  justify-content: center;
+}
+
+.about__logo-circle {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: var(--black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__content {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
