@@ -1,16 +1,12 @@
 .header {
   margin: 92px 0;
   font-size: 18px;
+  line-height: 23.5px;
 }
 
 .header__content {
   display: grid;
-  grid-template-columns: 1.25fr 1fr;
-  align-items: center;
-}
-
-.header__menu {
-  display: flex;
+  grid-template-columns: 1fr min-content 1fr;
   justify-content: space-between;
   align-items: center;
 }
@@ -35,10 +31,7 @@
   transition: color 0.3s ease 0s;
 }
 
-.menu__item:first-child {
-  list-style: none;
-}
-
 .menu__item-active {
   border-bottom: none;
+  list-style: none;
 }
